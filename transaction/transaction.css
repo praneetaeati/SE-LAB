@@ -1,0 +1,197 @@
+body{
+    background-color: #1A374D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1{
+    color: white;
+    position: absolute;
+    right: 10%;
+}
+.outer{
+    height: 90svh;
+    width: 80%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.heading{
+    height:10%;
+    width: fit-content;
+    background-color: #6998AB;
+    position: absolute;
+    left: 8%;
+    top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px 0px black;
+    border: 2px solid white;
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+
+.top{
+    background-color: #1A374D;
+    height: 50px;
+    width: 30%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tops input{
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+.mag{
+    color: white;
+}
+
+.head{
+    height: 50px;
+    width: 15%;
+    position: absolute;
+    right: 40%;
+    top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 25px;
+    background-color: #1A374D;
+    color: #f1f1f1;
+}
+.head p{
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.188);
+    overflow-wrap: anywhere;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #1A374D;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #B1D0E0;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #00000048;
+    cursor: pointer;
+}
+
+.status {
+    padding: 6px 12px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.status.pending {
+    background-color: #1A374D;
+}
+
+.status.complete {
+    background-color: #406882;
+}
+
+.status.canceled {
+    background-color: #6998AB;
+}
+
+.sent {
+    color: green;
+}
+
+.received {
+    color: red;
+}
+
+.action-btn {
+    border: none;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view {
+    background-color: #1A374D;
+    color: white;
+}
+
+.edit {
+    background-color: #ffc107;
+    color: white;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}

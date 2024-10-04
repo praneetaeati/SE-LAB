@@ -1,0 +1,73 @@
+body{
+    background-color: #B1D0E0;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: sans-serif;
+}
+.login{
+    background-color: #ffffff;
+    position: absolute;
+    width: 30svw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.792);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    animation-name: fadein;
+    animation-duration: 2s;
+    transition: ease-in-out;
+}
+
+.login h1{
+    font-size: 8vh;
+}
+.passuser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.passuser input{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#click{
+    text-decoration: none;
+    color: #6998AB;
+}
+
+#btn{
+    height: 50px;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: #1A374D;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+
+}
+#btn:hover{
+    box-shadow: 0px 0px 5px 0px #1A374D;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

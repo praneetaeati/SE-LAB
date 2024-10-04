@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="h1">Dashboard</h1>
+    <div class="outer">
+        <div class="heading">TRANSACTIONS</div>
+        <div class="top">
+            <div class="search tops">
+                <i class="fa-solid fa-magnifying-glass mag"></i>
+                <input type="text" placeholder="search anything here">
+            </div>
+            <div class="daterange tops">
+                <input type="date" placeholder="search by date">
+            </div>
+            
+        </div>
+        <div class="head">
+            Total count: <p>10</p>
+        </div>
+
+
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>S.no</th>
+                    <th>Date</th>
+                    <th>Customer</th>
+                    <th>Products</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>October 31st 2017 02:10 PM</td>
+                    <td>Mrs. Chauncey McDermott</td>
+                    <td>68010</td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td class="sent">$269.75</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>May 31st 2017 06:39 PM</td>
+                    <td>Keon Heller</td>
+                    <td>44566</td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td class="sent">$536.49</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>January 31st 2018 02:10 PM</td>
+                    <td>Jordy Nicolas</td>
+                    <td>86145</td>
+                    <td><span class="status complete">Complete</span></td>
+                    <td class="received">$509.64</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <!-- More rows can be added here -->
+                <tr>
+                    <td>4</td>
+                    <td>September 5th 2017 04:39 PM</td>
+                    <td>Keara Keeling</td>
+                    <td>86554</td>
+                    <td><span class="status complete">Complete</span></td>
+                    <td class="received">$922.24</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>February 17th 2018 03:24 PM</td>
+                    <td>Terrence Hahn</td>
+                    <td>25690</td>
+                    <td><span class="status complete">Complete</span></td>
+                    <td class="received">$325.91</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>May 30th 2017 04:39 PM</td>
+                    <td>Ms. Yoshiko Feil</td>
+                    <td>4818</td>
+                    <td><span class="status canceled">Canceled</span></td>
+                    <td class="received">$298.15</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>July 24th 2017 04:39 PM</td>
+                    <td>Zachariah Pfannerstill</td>
+                    <td>90722</td>
+                    <td><span class="status canceled">Canceled</span></td>
+                    <td class="sent">$906.18</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>March 17th 2017 04:39 PM</td>
+                    <td>Mrs. Caleigh Steuber</td>
+                    <td>45376</td>
+                    <td><span class="status complete">Complete</span></td>
+                    <td class="received">$871.82</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>December 5th 2017 03:24 PM</td>
+                    <td>Lincoln Hahn V</td>
+                    <td>43011</td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td class="sent">$541.01</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>January 17th 2018 02:10 PM</td>
+                    <td>Edythe Stanton</td>
+                    <td>40309</td>
+                    <td><span class="status pending">Pending</span></td>
+                    <td class="sent">$214.59</td>
+                    <td>
+                        <button class="action-btn view">✔</button>
+                        <button class="action-btn edit">✏</button>
+                        <button class="action-btn delete">🗑</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

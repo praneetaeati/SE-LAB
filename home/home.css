@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1A374D;
+    text-shadow: 0px 0px 5px black;
+}
+
+.top{
+    background-color: #ffffff;
+    height: 40svh;
+    z-index: -100;
+}
+
+.main{
+    height: 68svh;
+    width: 55svw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-45%);
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.247);
+}
+
+.user{
+    color: #6998AB;
+    font-size: 10em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.526);
+    text-shadow: none;
+}
+
+.btn{
+    height: 10%;
+    width: 15%;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6998AB;
+    box-shadow: 0px 0px 10px 0px black;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.plus{
+    position: absolute;
+    right: 8%;
+    top: 10%;
+    cursor: pointer;
+    scale: 1.2;
+}
+.info{
+    background-color: #1A374D;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    height: 40%;
+    width: 30%;
+    left: 2%;
+    display: flex;
+    align-items: self-start;
+    padding-left: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.info:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transition-duration: 0.5s;
+}
+.info h1{
+    font-size: 1.7em;
+    text-shadow: 0px 0px 10px black;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+}
+.edit{
+    height: 10%;
+    width: 15%;
+    background-color: #1A374D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #ffffff;
+    right: 2%;
+    top: 3%;
+    font-size: 1.2em;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.edit:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transition-duration: 0.5s;
+}
+
+.account{
+    height: 70%;
+    width: 62%;
+    background-color: #1A374D;
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.account:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.add{
+    height: 10%;
+    width: 15%;
+    background-color: #1A374D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #ffffff;
+    right: 20%;
+    top: 3%;
+    font-size: 1.2em;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.add:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transition-duration: 0.5s;
+}
+
+.plus2{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+    scale: 1.2;
+    color: #ffffff;
+}
+
+.bio{
+    height: 12%;
+    width: 70%;
+    background-color: #1A374D;
+    position: absolute;
+    left: 5%;
+    bottom: 1%;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bio h3{
+    font-size: 1em;
+}
+.bio:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transition-duration: 0.5s;
+}
+
+.inside{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.53);
+    height: 10%;
+    margin-top: 10%;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.right{
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+    font-size: 0.5em;
+}
+
+.settings{
+    background-color: #1A374D;
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 35%;
+    width: 30%;
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    gap: 20px;
+    cursor: pointer;
+}
+.settings:hover{
+    box-shadow: 0px 0px 10px 0px black;
+    transition-duration: 0.5s;
+}
+.gear{
+    font-size: 5em;
+}
